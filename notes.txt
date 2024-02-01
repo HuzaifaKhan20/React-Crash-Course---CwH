@@ -1,0 +1,10 @@
+Time: 1:00:19
+
+*) In react we write in JSX = JavaScript Syntax Extension.
+*) React Router DOM = Used for routing in React.
+*) When you want to use JavaScript code outside of the browser so we use Node.js
+*) npm downloads the packages permanantly do the computer and then use it.
+*) npx just temporary use the package and DO NOT download it in PC.
+*) class is a keyword in JS so we use className react in JS.
+*) We can make class or function based components.
+*) React Bootstrap is used to style components and for optimized performance.
