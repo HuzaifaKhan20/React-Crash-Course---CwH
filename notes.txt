@@ -1,4 +1,4 @@
-Time: 1:00:19
+Time: 1:50:00
 
 *) In react we write in JSX = JavaScript Syntax Extension.
 *) React Router DOM = Used for routing in React.

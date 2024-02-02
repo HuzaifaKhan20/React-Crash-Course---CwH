@@ -3,11 +3,20 @@ import TodoItems from './TodoItems'
 
 const Todos = (props) => {
   return (
-    <div className='container'>
-        <h3>Todos List</h3>
+    <div className='container my-5'>
+        <h3 >Todos List</h3>
         {/* {props.todos} */}
         {/* <p>{props.todos[0].title}</p> */} 
-        <TodoItems todo={props.todos[0]} />
+        {props.todos.length===0? "No Todos to display":
+        props.todos.map((todoList)=>{
+          // console.log(todoList);
+            return(
+              <>
+               <TodoItems todo={todoList} key={todoList.sno} onDelete={props.onDelete} /> <hr />
+               </>
+            )
+        })
+        }
     </div>
   )
 }
