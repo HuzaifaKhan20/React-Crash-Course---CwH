@@ -8,8 +8,11 @@ const AddTodo = ({addTodo})=>{
         e.preventDefault();
         if(!title || !desc){
             alert("Title or Description cannot be empty");
+        }else{
+            addTodo(title, desc);
+            setTitle("");
+            setDesc("");
         }
-        addTodo(title, desc);
     }
 
     return(

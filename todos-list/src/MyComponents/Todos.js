@@ -10,11 +10,7 @@ const Todos = (props) => {
         {props.todos.length===0? "No Todos to display":
         props.todos.map((todoList)=>{
           // console.log(todoList);
-            return(
-              <>
-               <TodoItems todo={todoList} key={todoList.sno} onDelete={props.onDelete} /> <hr />
-               </>
-            )
+            return(<TodoItems todo={todoList} key={todoList.sno} onDelete={props.onDelete} />)
         })
         }
     </div>
